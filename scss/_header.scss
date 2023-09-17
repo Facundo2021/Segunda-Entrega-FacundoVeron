@@ -1,0 +1,29 @@
+/* Header */
+@mixin anclas{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+header {
+  border-bottom: 1px solid black;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+a {
+  @include anclas;
+  color: #fafafa;
+}
+
+.logo {
+  width: 150px;
+  display: flex;
+  justify-content: start;
+}
