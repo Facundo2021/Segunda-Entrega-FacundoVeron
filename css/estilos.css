@@ -13,7 +13,7 @@ body {
 
 /* Header */
 header {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #0ef49c;
   text-align: center;
   padding: 10px 20px;
 }
@@ -28,7 +28,7 @@ a {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
-  color: #fafafa;
+  color: #154aeb;
 }
 
 .logo {
@@ -135,8 +135,8 @@ input[type=text], textarea {
 }
 
 .enviar {
-  background-color: blue;
-  color: #fff;
+  background-color: #d7e722;
+  color: #0b0b0b;
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
@@ -163,7 +163,7 @@ input[type=text], textarea {
 }
 
 .contenedorPeliculas p {
-  background-color: #444;
+  background-color: #154aeb;
   color: #fff;
   text-align: center;
   padding: 10px;
